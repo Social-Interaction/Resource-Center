@@ -1,0 +1,52 @@
+body{
+  background: #003D79;
+}
+
+div.nav{
+  padding: 15px;
+  width: 20%;
+  float: left;
+  text-align: center;
+  height: 100%;
+  position: fixed;
+  background: #C7D6EE;
+}
+
+.nav-inner{
+  height: 100%;
+}
+
+ul.nav li{
+  height: 10%;
+}
+ul.nav div.nav-inner div{
+  background: white;
+  margin: 0.5% 0;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 75%;
+}
+
+.icon{
+  height: 35px;
+  margin-right: 2%;
+  padding-bottom: 5px;
+}
+
+img.international{
+  height: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .cat{
+    display: none;
+  }
+  .icon{
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-height: 450px) {
+
+}

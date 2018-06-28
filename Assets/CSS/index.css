@@ -1,29 +1,8 @@
-@font-face{font-family: 'CenturyGothic'; src: url(Fonts/CenturyGothic.ttf) format('truetype');}
-@font-face{font-family: 'MyriadPro'; src: url(Fonts/MyriadPro-Regular.otf) format('opentype');}
-@font-face{font-family: 'Archer'; src: url(Fonts/Archer-Semibold.otf) format('opentype');}
-
 /*
 Light Blue #C7D6EE;
 Blue #003D79;
 Yellow #F2E18B
 */
-
-body{
-    font-family: "MyriadPro";
-    background: #003D79;
-}
-
-h1{
-    color: white;
-    text-align: center;
-    font-family: "CenturyGothic";
-    letter-spacing: 3px;
-}
-
-p{
-    text-align: center;
-    color: white;
-}
 
 .container-fluid{
     margin: 0 3%;
@@ -48,21 +27,16 @@ p{
   display: inline-block;
 }
 
-h2{
-    font-family: "Archer";
-    font-size: 30px;
-    text-align: center;
-    color: black;
-    margin-top: 2%;
-    margin-bottom: 5%;
-}
-
 .panel-default{
-    margin: 5% 3%;
+    margin: 0;
     border-radius: 10px;
     padding: 15px;
     border-width: 0;
     height: 250px;
+}
+
+.wrap{
+    padding: 3% 3%;
 }
 
 .icon-cont{
@@ -107,11 +81,3 @@ h2{
     margin-top: 12px;
 }
 /* ------ MASTHEAD END ------ */
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-height: 450px) {
-
-}
