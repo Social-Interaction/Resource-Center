@@ -1,6 +1,7 @@
 /*
-Light Blue #C7D6EE;
-Blue #003D79;
+Light Blue #C7D6EE
+Dark Gray #58595B
+Blue #003D79
 Yellow #F2E18B
 */
 
@@ -14,8 +15,10 @@ Yellow #F2E18B
 }
 
 .link:hover .panel{
-    background: #C7D6EE;
+    background: #003D79;
     transition: 0.5s ease;
+    border-width: 3px;
+    border-color: white;
 }
 .link:hover h2{
     color: white;
@@ -24,7 +27,7 @@ Yellow #F2E18B
     display: none;
 }
 .link:hover .desc{
-  display: inline-block;
+    display: inline-block;
 }
 
 .panel-default{

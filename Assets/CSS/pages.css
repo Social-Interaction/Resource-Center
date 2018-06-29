@@ -2,35 +2,102 @@ body{
   background: #003D79;
 }
 
+#btn{
+  margin: 20px;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  background: white;
+}
+.glyphicon-menu-hamburger{
+  font-size: 25px;
+  color: #003D79;
+}
+
+/*      NAVBAR START      */
+.closebtn{
+  font-size: 25px;
+  position: absolute;
+  right: -10px;
+  color: black;
+}
+.closebtn:hover, .closebtn:visited, .closebtn:active{
+  color: white;
+  text-decoration: none;
+}
+
 div.nav{
-  padding: 15px;
+  padding: 8px 15px;
+  padding-bottom: 10px;
   width: 20%;
   float: left;
   text-align: center;
   height: 100%;
   position: fixed;
   background: #C7D6EE;
+  display: none;
+}
+
+div.logos{
+  height: 10%;
+}
+
+img.logo{
+  height: 90%;
 }
 
 .nav-inner{
-  height: 100%;
+  height: 90%;
 }
 
 ul.nav li{
   height: 10%;
 }
-ul.nav div.nav-inner div{
+ul.nav div{
   background: white;
-  margin: 0.5% 0;
   border-radius: 5px;
   font-size: 16px;
+  width: 100%;
   height: 75%;
+  padding: 1.5% 0;
+}
+/*      NAVBAR HOVER START   */
+.link{
+  margin: 0; padding: 0;
+  color: black;
+}
+.link:hover, .link:visited, .link:link, .link:active{
+    text-decoration: none;
+    background: #C7D6EE;
+    transition: 0.8s ease;
+}
+
+.link:hover div{
+    background: #003D79;
+    transition: 0.8s ease;
+}
+.link:hover .cat{
+    color: white;
+}
+.link:hover .desc{
+    display: inline-block;
+}
+
+/*      NAVBAR END      */
+
+.right{
+  width: 80%;
+  float: right;
 }
 
 .icon{
   height: 35px;
   margin-right: 2%;
   padding-bottom: 5px;
+}
+
+#intnl{
+  padding-top: 4%;
 }
 
 img.international{
@@ -44,6 +111,20 @@ img.international{
   }
   .icon{
     margin-right: 0;
+  }
+  .logo{
+    height: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  #cnh{
+    display: none;
+  }
+  #nav{
+    display: block;
+  }
+  #btn, .closebtn{
+    display: none;
   }
 }
 
