@@ -9,6 +9,77 @@ Yellow #F2E18B
     margin: 0 3%;
 }
 
+/*        HEADER START         */
+div.header{
+    padding: 5%;
+    text-decoration: none;
+}
+
+h2.header{
+    color: white;
+    font-size: 50px;
+    font-family: "Archer";
+    text-align: left;
+    margin: 0;
+    margin-top: 4%;
+}
+
+h1.header{
+    color: white;
+    font-family: "Archer";
+    font-size: 100px;
+    margin: 0;
+}
+
+#bottom{
+    width: 100%;
+    margin-top: 2%;
+    pointer-events: none;
+}
+
+.sun{
+    width: 200px;
+    position: absolute;
+    right: 12%;
+    pointer-events: none;
+}
+
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.sun-out
+{
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         10s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.out1
+{
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         6s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.out2
+{
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         12s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+/*        HEADER END         */
+
 /*------  PANEL START  ------*/
 .link:hover, .link:visited, .link:link, .link:active{
     text-decoration: none;
@@ -20,7 +91,7 @@ Yellow #F2E18B
     border-width: 3px;
     border-color: white;
 }
-.link:hover h2{
+.link:hover h2.title{
     color: white;
 }
 .link:hover .icon{
@@ -84,3 +155,28 @@ Yellow #F2E18B
     margin-top: 12px;
 }
 /* ------ MASTHEAD END ------ */
+
+@media screen and (max-width: 1000px) {
+    .sun{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.header{
+        padding: 0 8%;
+    }
+    h1.header{
+        font-size: 50px;
+    }
+    h2.header{
+        font-size: 30px;
+    }
+    #bottom{
+      margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-height: 450px) {
+
+}
