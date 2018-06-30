@@ -5,9 +5,49 @@ Blue #003D79
 Yellow #F2E18B
 */
 
+h2{
+    font-family: "Archer";
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
 .container-fluid{
     margin: 0 3%;
 }
+
+
+/* ------ MASTHEAD START ------ */
+#nav{
+    width: 90%;
+    padding: 10px;
+    padding-top: 12px;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: 50px;
+}
+
+#cki{
+    height: 50px;
+    margin-left: 12px;
+}
+
+#cnh {
+    height: 50px;
+    float: right;
+    margin-right: 12px;
+}
+
+#stripes{
+    width: 100%;
+    max-height: 8px;
+    min-height: 4px;
+    margin-top: 12px;
+}
+/* ------ MASTHEAD END ------ */
+
 
 /*        HEADER START         */
 div.header{
@@ -110,7 +150,7 @@ h1.header{
 }
 
 .wrap{
-    padding: 3% 3%;
+    padding: 3%;
 }
 
 .icon-cont{
@@ -126,36 +166,6 @@ h1.header{
 }
 /*------  PANEL END  ------*/
 
-
-/* ------ MASTHEAD START ------ */
-#nav{
-    width: 90%;
-    padding: 10px;
-    padding-top: 12px;
-    margin: 0 auto;
-    background: white;
-    margin-bottom: 50px;
-}
-
-#cki{
-    height: 50px;
-    margin-left: 12px;
-}
-
-#cnh {
-    height: 50px;
-    float: right;
-    margin-right: 12px;
-}
-
-#stripes{
-    width: 100%;
-    max-height: 8px;
-    min-height: 5px;
-    margin-top: 12px;
-}
-/* ------ MASTHEAD END ------ */
-
 @media screen and (max-width: 1000px) {
     .sun{
         display: none;
@@ -163,17 +173,36 @@ h1.header{
 }
 
 @media screen and (max-width: 768px) {
-    div.header{
-        padding: 0 8%;
+    .panel-default{
+        height: 180px;
+        padding-top: 1%;
     }
-    h1.header{
-        font-size: 50px;
+    h2{ font-size: 20px; }
+
+    .icon-cont{ width: 100px; }
+
+    p{ font-size: 12px; }
+
+    div.header{ padding: 0 8%; }
+
+    h1.header{ font-size: 50px; }
+
+    h2.header{ font-size: 30px; }
+
+    #bottom{ margin-bottom: 10%;
     }
-    h2.header{
-        font-size: 30px;
+    #cki{
+      height: 30px;
+      margin-left: 6px;
     }
-    #bottom{
-      margin-bottom: 10%;
+    #cnh{
+      height: 30px;
+      margin-right: 6px;
+    }
+    #stripes{ margin: 0; }
+
+    #nav{
+      padding-bottom: 0;
     }
 }
 

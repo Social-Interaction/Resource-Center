@@ -1,0 +1,61 @@
+
+  <button type="button" id="btn" class="btn btn-primary" onclick="show()">
+    <span class="glyphicon glyphicon-menu-hamburger"></span>
+  </button>
+
+  <a href="index.html"><img id="small" onmouseover="this.src='Assets/home_lb.png'" onmouseout="this.src='Assets/home_w.png'" src="Assets/home_w.png"></a>
+
+  <img src="Assets/Icons/cm_w.png" id="icon">
+
+  <img src="Assets/stripes1.png" id="stripes" alt="">
+
+  <div class="nav" id="nav">
+    <div class="logos container-fluid">
+      <div id="cnh" class="logo col-sm-6">
+        <a href="http://cnhcirclek.org"><img class="logo" onmouseover="this.src='Assets/cnh_lb.png'" onmouseout="this.src='Assets/cnh.png'" src="Assets/cnh.png"></a>
+      </div>
+      <div class="logo col-sm-6">
+        <a href="index.html"><img class="logo" onmouseover="this.src='Assets/home_lb.png'" onmouseout="this.src='Assets/home_b.png'" src="Assets/home_b.png"></a>
+        <a href="javascript:void(0)" class="closebtn" onclick="hide()">&times;</a>
+      </div>
+    </div>
+    <div class="nav-inner">
+      <ul class="nav">
+        <a class="link" href="cm.html" onmouseover="changeCmSrc('in')" onmouseout="changeCmSrc('out')"><li><div><img id="cm" class="icon" src="Assets/Icons/cm_w.png"><span class="cat">C&M</span></div></li></a>
+        <a class="link" href="" onmouseover="changeKfamSrc('in')" onmouseout="changeKfamSrc('out')"><li><div><img id="kfam" class="icon" src="Assets/Icons/kfam_w.png"><span class="cat">K Family</span></div></li></a>
+        <a class="link" href="" onmouseover="changeMrSrc('in')" onmouseout="changeMrSrc('out')"><li><div><img id="mr" class="icon" src="Assets/Icons/mr_w.png"><span class="cat">Recognition</span></div></li></a>
+        <a class="link" href="" onmouseover="changeMdeSrc('in')" onmouseout="changeMdeSrc('out')"><li><div><img id="mde" class="icon" src="Assets/Icons/mde_w.png"><span class="cat">Recruitment</span></div></li></a>
+        <a class="link" href="" onmouseover="changeLrSrc('in')" onmouseout="changeLrSrc('out')"><li><div><img id="lr" class="icon" src="Assets/Icons/lr_w.png"><span class="cat">Secretary</span></div></li></a>
+        <a class="link" href="" onmouseover="changeServiceSrc('in')" onmouseout="changeServiceSrc('out')"><li><div><img id="service" class="icon" src="Assets/Icons/service_w.png"><span class="cat">Service</span></div></li></a>
+        <a class="link" href="" onmouseover="changeTechSrc('in')" onmouseout="changeTechSrc('out')"><li><div><img id="tech" class="icon" src="Assets/Icons/tech_w.png"><span class="cat">Technology</span></div></li></a>
+        <a class="link" href="" onmouseover="changeFifunSrc('in')" onmouseout="changeFifunSrc('out')"><li><div><img id="fifun" class="icon" src="Assets/Icons/fifun_w.png"><span class="cat">Treasurer</span></div></li></a>
+        <a class="link" href="" onmouseover="changeWorkshopsSrc('in')" onmouseout="changeWorkshopsSrc('out')"><li><div><img id="workshops" class="icon" src="Assets/Icons/workshops_w.png"><span class="cat">Workshops</span></div></li></a>
+        <a class="link" href="" onmouseover="changeDboardSrc('in')" onmouseout="changeDboardSrc('out')"><li><div><img id="dboard" class="icon" src="Assets/Icons/dboard_w.png"><span class="cat">CNH Admin</span></div></li></a>
+        <a class="link" href="http://circlek.org/resources" onmouseover="changeCkiSrc('in')" onmouseout="changeCkiSrc('out')"><li><div id="intnl"><img id="cki" class="international icon" src="Assets/Icons/cki_w.png"><span class="cat">International</span></div></li></a>
+      </ul>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    function changeCmSrc(inout) { if (inout == "in"){ document.getElementById("cm").src = "Assets/Icons/cm.png"; } else{ document.getElementById("cm").src = "Assets/Icons/cm_w.png"; } }
+    function changeKfamSrc(inout) { if (inout == "in"){ document.getElementById("kfam").src = "Assets/Icons/kfam.png"; } else{ document.getElementById("kfam").src = "Assets/Icons/kfam_w.png"; } }
+    function changeMrSrc(inout) { if (inout == "in"){ document.getElementById("mr").src = "Assets/Icons/mr.png"; } else{ document.getElementById("mr").src = "Assets/Icons/mr_w.png"; } }
+    function changeMdeSrc(inout) { if (inout == "in"){ document.getElementById("mde").src = "Assets/Icons/mde.png"; } else{ document.getElementById("mde").src = "Assets/Icons/mde_w.png"; } }
+    function changeLrSrc(inout) { if (inout == "in"){ document.getElementById("lr").src = "Assets/Icons/lr.png"; } else{ document.getElementById("lr").src = "Assets/Icons/lr_w.png"; } }
+    function changeServiceSrc(inout) { if (inout == "in"){ document.getElementById("service").src = "Assets/Icons/service.png"; } else{ document.getElementById("service").src = "Assets/Icons/service_w.png"; } }
+    function changeTechSrc(inout) { if (inout == "in"){ document.getElementById("tech").src = "Assets/Icons/tech.png"; } else{ document.getElementById("tech").src = "Assets/Icons/tech_w.png"; } }
+    function changeFifunSrc(inout) { if (inout == "in"){ document.getElementById("fifun").src = "Assets/Icons/fifun.png"; } else{ document.getElementById("fifun").src = "Assets/Icons/fifun_w.png"; } }
+    function changeWorkshopsSrc(inout) { if (inout == "in"){ document.getElementById("workshops").src = "Assets/Icons/workshops.png"; } else{ document.getElementById("workshops").src = "Assets/Icons/workshops_w.png"; } }
+    function changeDboardSrc(inout) { if (inout == "in"){ document.getElementById("dboard").src = "Assets/Icons/dboard.png"; } else{ document.getElementById("dboard").src = "Assets/Icons/dboard_w.png"; } }
+    function changeCkiSrc(inout) { if (inout == "in"){ document.getElementById("cki").src = "Assets/Icons/cki.png"; } else{ document.getElementById("cki").src = "Assets/Icons/cki_w.png"; } }
+
+
+    function show() {
+      document.getElementById("nav").style.display = "block";
+      document.getElementById("btn").style.display = "none";
+    }
+    function hide() {
+      document.getElementById("nav").style.display = "none";
+      document.getElementById("btn").style.display = "block";
+    }
+  </script>

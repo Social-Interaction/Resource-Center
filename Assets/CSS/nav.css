@@ -112,6 +112,7 @@ ul.nav div{
 }
 .link:hover .cat{
     color: black;
+    transition: 1s ease;
 }
 .link:hover .desc{
     display: inline-block;
