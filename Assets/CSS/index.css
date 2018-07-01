@@ -7,7 +7,7 @@ Yellow #F2E18B
 
 h2{
     font-family: "Archer";
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: black;
     margin-top: 2%;
@@ -15,7 +15,7 @@ h2{
 }
 
 .container-fluid{
-    margin: 0 3%;
+    margin: 0 6%;
 }
 
 
@@ -127,7 +127,7 @@ h1.header{
 
 .link:hover .panel{
     background: #003D79;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
     border-width: 3px;
     border-color: white;
 }
@@ -144,17 +144,17 @@ h1.header{
 .panel-default{
     margin: 0;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     border-width: 0;
-    height: 250px;
+    height: 220px;
 }
 
 .wrap{
-    padding: 3%;
+    padding: 2.5%;
 }
 
 .icon-cont{
-    width: 150px;
+    width: 120px;
     margin: 0 auto;
 }
 .icon{
