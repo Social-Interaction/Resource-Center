@@ -10,8 +10,15 @@ h2{
     font-size: 25px;
     text-align: center;
     color: black;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+p{
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 12px;
+    margin: 0 12px;
 }
 
 .container-fluid{
@@ -121,36 +128,17 @@ h1.header{
 /*        HEADER END         */
 
 /*------  PANEL START  ------*/
-.link:hover, .link:visited, .link:link, .link:active{
-    text-decoration: none;
-}
-
-.link:hover .panel{
-    background: #003D79;
-    transition: 0.3s ease;
-    border-width: 3px;
-    border-color: white;
-}
-.link:hover h2.title{
-    color: white;
-}
-.link:hover .icon{
-    display: none;
-}
-.link:hover .desc{
-    display: inline-block;
-}
-
 .panel-default{
     margin: 0;
     border-radius: 10px;
-    padding: 10px;
-    border-width: 0;
-    height: 220px;
+    padding: 4% 3%;
+    height: 230px;
+    border-width: 3px;
+    border-color: white;
 }
 
 .wrap{
-    padding: 2.5%;
+    padding: 2.3%;
 }
 
 .icon-cont{
@@ -164,6 +152,25 @@ h1.header{
 .desc{
     display: none;
 }
+
+.link:hover, .link:visited, .link:link, .link:active{
+    text-decoration: none;
+}
+
+.link:hover .panel-default{
+    background: #003D79;
+    transition: 0.3s ease;
+}
+.link:hover h2.title{
+    color: white;
+}
+.link:hover .icon{
+    display: none;
+}
+.link:hover .desc{
+    display: inline-block;
+}
+
 /*------  PANEL END  ------*/
 
 @media screen and (max-width: 1000px) {
@@ -173,13 +180,18 @@ h1.header{
 }
 
 @media screen and (max-width: 768px) {
+    .wrap{
+        padding: 3% 0;
+    }
     .panel-default{
-        height: 180px;
-        padding-top: 1%;
+        height: 240px;
     }
     h2{ font-size: 20px; }
 
-    .icon-cont{ width: 100px; }
+    .icon-cont{
+        width: 150px;
+        margin-top: 20px;
+    }
 
     p{ font-size: 12px; }
 
