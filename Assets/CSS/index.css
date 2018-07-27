@@ -14,8 +14,17 @@ h2{
     margin-bottom: 3%;
 }
 
-p{
+#inst{
+    font-family: "Archer";
+    font-size: 20px;
     text-align: center;
+    color: white;
+    margin-bottom: 5%;
+    display: none;
+}
+
+p{
+    text-align: justify;
     text-justify: inter-word;
     font-size: 12px;
     margin: 0 12px;
@@ -28,30 +37,38 @@ p{
 
 /* ------ MASTHEAD START ------ */
 #nav{
-    width: 90%;
-    padding: 10px;
+    width: 100%;
     padding-top: 12px;
     margin: 0 auto;
-    background: white;
-    margin-bottom: 50px;
+    /* background: white; */
+    /* margin-bottom: 50px; */
+    bottom: 0;
 }
 
 #cki{
-    height: 50px;
-    margin-left: 12px;
+    height: 70px;
+    margin-left: 18px;
 }
 
 #cnh {
-    height: 50px;
+    height: 70px;
     float: right;
-    margin-right: 12px;
+    margin-right: 18px;
 }
 
 #stripes{
     width: 100%;
-    max-height: 8px;
+    max-height: 12px;
     min-height: 4px;
     margin-top: 12px;
+}
+
+#home{
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: black;
 }
 /* ------ MASTHEAD END ------ */
 
@@ -187,6 +204,10 @@ h1.header{
         height: 240px;
     }
     h2{ font-size: 20px; }
+
+    #inst{
+        display: block;
+    }
 
     .icon-cont{
         width: 150px;

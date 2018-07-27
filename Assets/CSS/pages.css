@@ -19,6 +19,29 @@ h1{
     padding-bottom: 0;
 }
 
+/*          BEGIN RESOURCES          */
+.dropdown-glyph{
+    font-size: 30px;
+    background: blue;
+}
+
+.expand{
+    text-align: left;
+    width: 100%;
+    background: none;
+    padding: 1%;
+    border: none;
+    border-radius: 10px;
+}
+
+.collapse-cont{
+    padding-left: 5%;
+}
+
+.collapse{
+    display: none;
+}
+
 a.rss{
     color: black;
 }
@@ -32,6 +55,10 @@ div.rss{
     border-color: #003D79;
 }
 
+div.rss-dropdown{
+    padding: 0;
+}
+
 .break{
     display: none;
 }
@@ -41,16 +68,21 @@ div.rss{
     margin-right: 12px;
 }
 
-a.rss:hover, a.rss:visited, a.rss:active{
+a, a:hover, a:active, a:visited, a:focus {
     text-decoration: none;
 }
-a.rss:hover div{
+div.rss:hover, div.rss:visited, div.rss:active{
+    text-decoration: none;
+}
+a.rss:hover div, a.rss:hover div button{
     color: white;
     background: #003D79;
     border-color: white;
     letter-spacing: 2px;
     transition: 0.2s ease;
 }
+
+/*          END RESOURCES          */
 
 #masthead{
     width: 100%;
@@ -60,14 +92,14 @@ a.rss:hover div{
 
 @media screen and (max-width: 768px) {
     .type{
-        height: 50px;
+        height: 20px;
         margin-right: 5px;
     }
     div.rss{
-        padding: 2% 3%;
-        font-size: 25px;
+        padding: 3% 4%;
+        font-size: 15px;
         margin: 3% 0;
-        text-align: center;
+        text-align: left;
     }
     .break{
         display: block;
@@ -78,7 +110,7 @@ a.rss:hover div{
     h1{
         font-size: 40px;
     }
-    a.rss:hover div{
-        letter-spacing: 1px;
+    a.rss:hover div, a.rss:hover div button{
+        letter-spacing: 0;
     }
 }
