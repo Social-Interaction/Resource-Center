@@ -25,12 +25,15 @@ h1{
     background: blue;
 }
 
-.expand{
+button.style-none, button.style-none:hover{
+    background: none;
+    border: none;
+}
+
+.expand style-none{
     text-align: left;
     width: 100%;
-    background: none;
     padding: 1%;
-    border: none;
     border-radius: 10px;
 }
 
@@ -68,6 +71,11 @@ div.rss-dropdown{
     margin-right: 12px;
 }
 
+.info{
+    float: right;
+    padding: 0;
+}
+
 a, a:hover, a:active, a:visited, a:focus {
     text-decoration: none;
 }
@@ -100,15 +108,18 @@ a.rss:hover div, a.rss:hover div button{
         font-size: 15px;
         margin: 3% 0;
         text-align: left;
+        border-width: 2px;
     }
     .break{
         display: block;
     }
     h2{
         font-size: 20px;
+        padding-left: 2%;
     }
     h1{
-        font-size: 40px;
+        font-size: 35px;
+        padding-left: 2%;
     }
     a.rss:hover div, a.rss:hover div button{
         letter-spacing: 0;

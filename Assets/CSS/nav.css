@@ -68,6 +68,7 @@ div.nav{
   background: #C7D6EE;
   background: white;
   display: none;
+  bottom: 0;
 }
 
 div.logos{
