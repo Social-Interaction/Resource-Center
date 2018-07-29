@@ -5,6 +5,9 @@
     $(function(){
       $("#includedContent").load("nav.html");
     });
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
   </script>
 
   <link rel="stylesheet" target="_blank" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -35,7 +38,8 @@
   <div class="right">
     <h2>CNH Circle K Resources</h2>
     <h1>Service</h1>
-    <a href="Documents/Service/database_3.21.pdf" target="_blank" class="rss"><div class="panel panel-default rss"><img class="type" src="Assets/pdf.png" alt="pdf">Service Resource Database</div></a>
+
+    <a href="Documents/Service/database_3.21.pdf" target="_blank" class="rss"><div class="panel panel-default rss"><img class="type" src="Assets/pdf.png" alt="pdf">Service Resource Database<img src="Assets/info.png" class="type info" data-toggle="tooltip" data-placement="left" title="    The Service Resource Database is the goto informational document for the CKI service officer! Please submit feedback to service@cnhcirclek.org!"></div></a>
 
     <img id="masthead" src="Assets/masthead_w.png" alt="">
   </div>
