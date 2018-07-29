@@ -119,6 +119,9 @@ a.rss:hover div.rss{
     .break{
         display: block;
     }
+    .info{
+        display: none;
+    }
     h2{
         font-size: 20px;
         padding-left: 2%;

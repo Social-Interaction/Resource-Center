@@ -5,6 +5,9 @@
     $(function(){
       $("#includedContent").load("nav.html");
     });
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
   </script>
 
   <link rel="stylesheet" target="_blank" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -35,7 +38,7 @@
   <div class="right">
     <h2>CNH Circle K Resources</h2>
     <h1>Technology</h1>
-    <a href="Documents/Tech/Screenshots.pdf" target="_blank" class="rss"><div class="panel panel-default rss"><img class="type" src="Assets/pdf.png" alt="pdf">Club Website Screenshots</div></a>
+    <a href="Documents/Tech/Screenshots.pdf" target="_blank" class="rss"><div class="panel panel-default rss"><img class="type" src="Assets/pdf.png" alt="pdf">Club Website Screenshots<img src="Assets/info.png" class="type info" data-toggle="tooltip" data-placement="left" title="What does a good club website look like?? We've put together a collection of screenshots from past outstanding club websites. Take a look!"></div></a>
 
     <img id="masthead" src="Assets/masthead_w.png" alt="">
   </div>
