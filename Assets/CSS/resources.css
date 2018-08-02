@@ -1,0 +1,94 @@
+/*    BEGIN ACCORDION LISTS    */
+button.style-none, button.style-none:hover{
+    background: none;
+    border: none;
+}
+
+.expand{
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.collapse-cont{
+    padding-left: 5%;
+}
+
+.collapse{
+    display: none;
+}
+/*    END ACCORDION LISTS    */
+
+
+a.rss{
+    color: black;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+}
+
+div.rss{
+    font-family: "Archer";
+    padding: 1%;
+    font-size: 25px;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: #003D79;
+}
+div.rss-dropdown{
+    padding: 0;
+}
+div.rss:hover, div.rss:visited, div.rss:active{
+    text-decoration: none;
+}
+
+.type{
+    height: 48px;
+    margin-right: 12px;
+}
+
+
+/*   BEGIN INFO TOOLTIPS   */
+.info{
+    float: right;
+    padding: 0;
+}
+
+a.rss:hover div.rss{
+    color: white;
+    background: #003D79;
+    border-color: white;
+    letter-spacing: 2px;
+    transition: 0.2s ease;
+}
+
+.tooltip{
+    font-family: "MyriadPro";
+}
+/*   END INFO TOOLTIPS   */
+
+@media screen and (max-width: 768px) {
+    .type{
+        height: 20px;
+        margin-right: 5px;
+    }
+    div.rss{
+        padding: 3% 4%;
+        font-size: 15px;
+        margin: 3% 0;
+        border-width: 2px;
+    }
+    div.rss-dropdown{
+        padding: 0;
+    }
+    .expand{
+        padding: 3% 4%;
+    }
+    p{
+      font-size: 10px;
+    }
+    a.rss:hover div.rss, a.rss:hover div button{
+        letter-spacing: 0;
+    }
+}

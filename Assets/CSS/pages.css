@@ -7,99 +7,9 @@ body{
     margin: 0 0 500px;
 }
 
-h1, h2 {
-    font-family: "Archer";
-    text-align: left;
-    color: white;
-    margin: 0;
-}
-
-h2{
-    font-size: 30px;
-}
-
-h1{
-    font-size: 55px;
-    margin-bottom: 5%;
-}
-
 .right{
     padding: 6% 12% 0 4%;
 }
-
-/*          BEGIN RESOURCES          */
-.dropdown-glyph{
-    font-size: 30px;
-    background: blue;
-}
-
-button.style-none, button.style-none:hover{
-    background: none;
-    border: none;
-}
-
-.expand{
-    text-align: left;
-    width: 100%;
-    border-radius: 10px;
-    padding: 1%;
-}
-
-.collapse-cont{
-    padding-left: 5%;
-}
-
-.collapse{
-    display: none;
-}
-
-a.rss{
-    color: black;
-}
-
-div.rss{
-    font-family: "Archer";
-    padding: 1%;
-    font-size: 25px;
-    border-radius: 10px;
-    border-width: 4px;
-    border-color: #003D79;
-}
-div.rss-dropdown{
-    padding: 0;
-}
-
-.break{
-    display: none;
-}
-
-.type{
-    height: 48px;
-    margin-right: 12px;
-}
-
-.info{
-    float: right;
-    padding: 0;
-}
-
-a, a:hover, a:active, a:visited, a:focus {
-    text-decoration: none;
-}
-div.rss:hover, div.rss:visited, div.rss:active{
-    text-decoration: none;
-}
-a.rss:hover div.rss{
-    color: white;
-    background: #003D79;
-    border-color: white;
-    letter-spacing: 2px;
-    transition: 0.2s ease;
-}
-.tooltip{
-    font-family: "MyriadPro";
-}
-/*          END RESOURCES          */
 
 .light-blue{
     color: #C7D6EE;
@@ -133,43 +43,7 @@ a.rss:hover div.rss{
 
 
 @media screen and (max-width: 768px) {
-    .type{
-        height: 20px;
-        margin-right: 5px;
-    }
-    div.rss{
-        padding: 3% 4%;
-        font-size: 15px;
-        margin: 3% 0;
-        border-width: 2px;
-    }
-    div.rss-dropdown{
-        padding: 0;
-    }
-    .expand{
-        padding: 3% 4%;
-    }
-    .break{
-        display: block;
-    }
-    .info{
-        display: none;
-    }
     .filler{
         margin-bottom: 25%;
-    }
-    h2{
-        font-size: 20px;
-        padding-left: 2%;
-    }
-    h1{
-        font-size: 35px;
-        padding-left: 2%;
-    }
-    p{
-      font-size: 10px;
-    }
-    a.rss:hover div.rss, a.rss:hover div button{
-        letter-spacing: 0;
     }
 }
