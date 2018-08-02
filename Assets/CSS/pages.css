@@ -1,3 +1,12 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin: 0 0 500px;
+}
+
 h1, h2 {
     font-family: "Archer";
     text-align: left;
@@ -15,8 +24,7 @@ h1{
 }
 
 .right{
-    padding: 6% 12% 6% 4%;
-    padding-bottom: 0;
+    padding: 6% 12% 0 4%;
 }
 
 /*          BEGIN RESOURCES          */
@@ -93,6 +101,31 @@ a.rss:hover div.rss{
 }
 /*          END RESOURCES          */
 
+.light-blue{
+    color: #C7D6EE;
+}
+
+.light-blue:hover, .light-blue:visited, .light-blue:active{
+    color: #216ae0;
+}
+/*
+.bottom{
+    position: absolute;
+    bottom: 0;
+    padding: 6% 12% 0 0;
+    padding-top: 500px;
+} */
+
+.filler{
+    margin-bottom: 20%;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    padding-right: 12%;
+}
+
 #masthead{
     width: 100%;
     margin-top: 2%;
@@ -122,6 +155,9 @@ a.rss:hover div.rss{
     .info{
         display: none;
     }
+    .filler{
+        margin-bottom: 25%;
+    }
     h2{
         font-size: 20px;
         padding-left: 2%;
@@ -129,6 +165,9 @@ a.rss:hover div.rss{
     h1{
         font-size: 35px;
         padding-left: 2%;
+    }
+    p{
+      font-size: 10px;
     }
     a.rss:hover div.rss, a.rss:hover div button{
         letter-spacing: 0;
