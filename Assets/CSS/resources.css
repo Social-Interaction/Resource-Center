@@ -56,9 +56,9 @@ div.rss:hover, div.rss:visited, div.rss:active{
 }
 
 a.rss:hover div.rss{
-    color: white;
+    color: #ededed;
     background: #003D79;
-    border-color: white;
+    border-color: #ededed;
     letter-spacing: 2px;
     transition: 0.2s ease;
 }

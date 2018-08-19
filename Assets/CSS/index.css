@@ -178,8 +178,8 @@ h1.header{
     background: #003D79;
     transition: 0.3s ease;
 }
-.link:hover h2.title{
-    color: white;
+.link:hover h2.title, p{
+    color: #ededed;
 }
 .link:hover .icon{
     display: none;
