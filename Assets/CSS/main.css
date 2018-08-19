@@ -28,6 +28,10 @@ h1{
     margin-bottom: 5%;
 }
 
+*:focus{
+  outline: 0;
+}
+
 @media screen and (max-width: 768px) {
     h2{
         font-size: 20px;
