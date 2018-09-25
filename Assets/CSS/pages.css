@@ -10,6 +10,10 @@ body{
 .right{
     padding: 6% 12% 0 4%;
 }
+.right .desc{
+    text-align: left;
+    margin-bottom: 2%;
+}
 
 .light-blue{
     color: #C7D6EE;
@@ -18,13 +22,6 @@ body{
 .light-blue:hover, .light-blue:visited, .light-blue:active{
     color: #216ae0;
 }
-/*
-.bottom{
-    position: absolute;
-    bottom: 0;
-    padding: 6% 12% 0 0;
-    padding-top: 500px;
-} */
 
 .filler{
     margin-bottom: 20%;

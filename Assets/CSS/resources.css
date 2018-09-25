@@ -85,9 +85,6 @@ a.rss:hover div.rss{
     .expand{
         padding: 3% 4%;
     }
-    p{
-      font-size: 10px;
-    }
     a.rss:hover div.rss, a.rss:hover div button{
         letter-spacing: 0;
     }

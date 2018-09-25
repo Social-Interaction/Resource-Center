@@ -10,6 +10,7 @@ body{
 p{
     text-align: center;
     color: white;
+    font-size: 17px;
 }
 
 h1, h2 {
@@ -25,7 +26,7 @@ h2{
 
 h1{
     font-size: 55px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 *:focus{
@@ -42,6 +43,12 @@ h1{
         padding-left: 2%;
     }
     P{
-        font-size: 10px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    P{
+        font-size: 19px;
     }
 }

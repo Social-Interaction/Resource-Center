@@ -24,9 +24,7 @@ h2{
 }
 
 p{
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 12px;
+    text-align: left;
     margin: 0 12px;
 }
 
@@ -40,8 +38,6 @@ p{
     width: 100%;
     padding-top: 12px;
     margin: 0 auto;
-    /* background: white; */
-    /* margin-bottom: 50px; */
     bottom: 0;
 }
 
@@ -187,7 +183,6 @@ h1.header{
 .link:hover .desc{
     display: inline-block;
 }
-
 /*------  PANEL END  ------*/
 
 @media screen and (max-width: 1000px) {
@@ -214,13 +209,9 @@ h1.header{
         margin-top: 20px;
     }
 
-    p{ font-size: 13px; }
+    p{ font-size: 15px; }
 
     div.header{ padding: 0 8%; }
-
-    h1.header{ font-size: 50px; }
-
-    h2.header{ font-size: 30px; }
 
     #bottom{ margin-bottom: 10%;
     }
