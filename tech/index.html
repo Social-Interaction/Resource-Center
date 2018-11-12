@@ -1,0 +1,64 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123363498-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-123363498-1');
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(function(){
+      $("#includedContent").load("../nav/nav.html");
+    });
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+
+  <link rel="stylesheet" target="_blank" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" target="_blank" href="../Assets/CSS/main.css">
+  <link rel="stylesheet" target="_blank" href="../Assets/CSS/nav.css">
+  <link rel="stylesheet" target="_blank" href="../Assets/CSS/pages.css">
+  <link rel="stylesheet" target="_blank" href="../Assets/CSS/resources.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" target="_blank" href="../favicon.ico" type="image/x-icon">
+
+  <title>Technology | Resources</title>
+</head>
+
+<body>
+  <button type="button" id="btn" class="btn btn-primary" onclick="show()">
+    <span class="glyphicon glyphicon-menu-hamburger"></span>
+  </button>
+
+  <a href="index.html"><img id="small" onmouseover="this.src='../Assets/home_lb.png'" onmouseout="this.src='../Assets/home_w.png'" src="../Assets/home_w.png"></a>
+
+  <img src="../Assets/Icons/tech_w.png" id="icon">
+
+  <img src="../Assets/stripes1.png" id="stripes" alt="">
+
+  <div id="includedContent"></div>
+
+  <div class="right">
+    <h2>CNH Circle K Resources</h2>
+    <h1>Technology</h1>
+    <p class="desc">The Technology Committee is devoted to providing the clubs of CNH with resources to aid in the creation of club websites, hosting webinars, and anything else tech-related. Here you will find tips and guidelines on building a club website, and much more to come!</p>
+
+    <a href="Documents/Tech/Screenshots.pdf" target="_blank" class="rss"><div class="panel panel-default rss"><img class="type" src="../Assets/type-icons/pdf.png" alt="pdf">Club Website Screenshots<img src="../Assets/type-icons/info.png" class="type info" data-toggle="tooltip" data-placement="left" title="What does a good club website look like?? We've put together a collection of screenshots from past outstanding club websites. Take a look!"></div></a>
+    <a href="https://docs.google.com/document/d/1vOxd_mYSfriASrXlu2fyw2PQtKtpff__bMja4tstoMI/edit?usp=sharing" target="_blank" class="rss"><div class="panel panel-default rss"><img class="type" src="../Assets/type-icons/link.png" alt="link">How to Set Up a Livestream</div></a>
+
+
+    <div class="filler"></div>
+    <div class="bottom">
+        <p>Contact <a class="light-blue" href="mailto:technology@cnhcirclek.org">technology@cnhcirclek.org</a> with any inquiries.</p>
+        <img id="masthead" src="../Assets/masthead_w.png" alt="">
+    </div>
+  </div>
+
+</body>

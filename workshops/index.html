@@ -1,0 +1,59 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123363498-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-123363498-1');
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(function(){
+      $("#includedContent").load("../nav/nav.html");
+    });
+  </script>
+
+  <link rel="stylesheet" target="_blank" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" target="_blank" href="../Assets/CSS/main.css">
+  <link rel="stylesheet" target="_blank" href="../Assets/CSS/nav.css">
+  <link rel="stylesheet" target="_blank" href="../Assets/CSS/pages.css">
+  <link rel="stylesheet" target="_blank" href="../Assets/CSS/resources.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" target="_blank" href="../favicon.ico" type="image/x-icon">
+
+  <title>Workshops | Resources</title>
+</head>
+
+<body>
+  <button type="button" id="btn" class="btn btn-primary" onclick="show()">
+    <span class="glyphicon glyphicon-menu-hamburger"></span>
+  </button>
+
+  <a href="index.html"><img id="small" onmouseover="this.src='../Assets/home_lb.png'" onmouseout="this.src='../Assets/home_w.png'" src="../Assets/home_w.png"></a>
+
+  <img src="../Assets/Icons/workshops_w.png" id="icon">
+
+  <img src="../Assets/stripes1.png" id="stripes" alt="">
+
+  <div id="includedContent"></div>
+
+  <div class="right">
+    <h2>CNH Circle K Resources</h2>
+    <h1>Workshops</h1>
+    <p class="desc">From Fall Training Conference to District Convention to Spring Training Conference, our Circle K members host workshops on several occasions throughout the year. Check out their workshop slides for a taste of what was presented, and appreciate the time and effort they've have put in to make them available!</p>
+
+    <a href="https://drive.google.com/drive/folders/1HtMJYU4B0vmm_pcN-Qk3fs9WYnm5q0_p" target="_blank" class="rss"><div class="panel panel-default rss"><img class="type" src="../Assets/type-icons/link.png" alt="link">Spring Training Conference 2018</div></a>
+
+    <div class="filler"></div>
+    <div class="bottom">
+        <p>Contact <a class="light-blue" href="mailto:technology@cnhcirclek.org">technology@cnhcirclek.org</a> with any inquiries.</p>
+        <img id="masthead" src="../Assets/masthead_w.png" alt="">
+    </div>
+  </div>
+
+</body>
