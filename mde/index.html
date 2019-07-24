@@ -1,0 +1,75 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123363498-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-123363498-1');
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(function(){
+      $("#includedContent").load("../nav/nav.html");
+    });
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+  </script>
+
+  <link rel="stylesheet" target="_blank" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" target="_blank" href="../Assets/CSS/main.css">
+  <link rel="stylesheet" target="_blank" href="../Assets/CSS/nav.css">
+  <link rel="stylesheet" target="_blank" href="../Assets/CSS/pages.css">
+<link rel="stylesheet" target="_blank" href="../Assets/CSS/resources.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" target="_blank" href="../favicon.ico" type="image/x-icon">
+
+  <title>MD&E | Resources</title>
+</head>
+
+<body>
+  <button type="button" id="btn" class="btn btn-primary" onclick="show()">
+    <span class="glyphicon glyphicon-menu-hamburger"></span>
+  </button>
+
+  <a href="../"><img id="small" onmouseover="this.src='../Assets/home_lb.png'" onmouseout="this.src='../Assets/home_w.png'" src="../Assets/home_w.png"></a>
+
+  <img src="../Assets/Icons/mde_w.png" id="icon">
+
+  <img src="../Assets/stripes1.png" id="stripes" alt="">
+
+  <div id="includedContent"></div>
+
+  <div class="right">
+    <h2>CNH Circle K Resources</h2>
+    <h1>Membership Development & Education</h1>
+    <p class="desc">The Membership Development & Education Committee provides the resources for members throughout CNH to nurture their Circle K experience! Officers may find here a variety of manuals and guides to promote member recruitment, retention, engagement, and more.</p>
+
+    <!--<a class="rss" target="_blank"><div class="panel panel-default rss rss-dropdown">
+      <button class="expand style-none" data-toggle="collapse" data-target="#collapseGraphics">
+        <img class="type" src="../Assets/type-icons/list.png" alt="">Graphics
+      </button>
+    </div></a>
+    <div class="collapse-cont">
+      <div id="collapseGraphics" class="collapse">
+        <a href="https://company-70313.frontify.com/d/zDV4IaLwZ1nC/cnh-circle-k-style-guide" class="rss" target="_blank"><div class="panel panel-default rss"><img class="type" src="../Assets/type-icons/link.png" alt="pdf">Style Guide<img src="../Assets/type-icons/info.png" class="type info" data-toggle="tooltip" data-placement="left" title="Covers Graphic Standards"></div></a>
+        <a href="https://drive.google.com/drive/u/3/folders/0B89Pp1HkrRlbMVMxb0Fzd21XcDA" class="rss" target="_blank"><div class="panel panel-default rss"><img class="type" src="../Assets/type-icons/link.png" alt="pdf">Graphic Standards Assets<img src="../Assets/type-icons/info.png" class="type info" data-toggle="tooltip" data-placement="left" title="All the files you need to comply with Graphic Standards!"></div></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDj5_x0PB5UzQ3w4FnL1StfugFX9qx3mhJqq2m6jzNeDPpTg/viewform" class="rss" target="_blank"><div class="panel panel-default rss"><img class="type" src="../Assets/type-icons/link.png" alt="pdf">Graphic Request Form<img src="../Assets/type-icons/info.png" class="type info" data-toggle="tooltip" data-placement="left" title="The C&M Committee will design a graphic for you!"></div></a>
+      </div>
+    </div>-->
+
+    <a href="../Documents/MDE/Tabling Manual.pdf" class="rss" target="_blank"><div class="panel panel-default rss"><img class="type" src="../Assets/type-icons/pdf.png" alt="pdf">Tabling Manual</div></a>
+
+    <div class="filler"></div>
+    <div class="bottom">
+        <p>Contact <a class="light-blue" href="mailto:mde@cnhcirclek.org">mde@cnhcirclek.org</a> with any inquiries.</p>
+        <img id="masthead" src="../Assets/masthead_w.png" alt="">
+    </div>
+  </div>
+
+</body>
