@@ -108,7 +108,7 @@ const resources = {
 		])
 	],
 	workshops: [
-		new Resource("Fall Training Conference 2019", "link", "http://www.cnhcirclek.org/download/fall-training-conference-2019/")
+		new Resource("Fall Training Conference 2019", "link", "http://www.cnhcirclek.org/download/fall-training-conference-2019/"),
 		new Resource("Spring Training Conference 2019", "link", "http://www.cnhcirclek.org/download/spring-training-conference-2019/"),
 		new Resource("District Convention 2019", "link", "http://www.cnhcirclek.org/download/district-convention-2019/"),
 		new Resource("Fall Training Conference 2018", "link", "http://www.cnhcirclek.org/download/fall-training-conference-2018/"),
