@@ -22,6 +22,8 @@
   <link rel="stylesheet" target="_blank" href="../Assets/CSS/pages.css">
   <link rel="stylesheet" target="_blank" href="../Assets/CSS/resources.css">
 
+  <script src="../Assets/resource_manifest.js" type="text/javascript"></script>
+  <script src="../Assets/load_resources.js" type="text/javascript" category="mr"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -48,74 +50,8 @@
     <h1>Member Recognition</h1>
     <p class="desc">The Member Recognition Committee is responsible for the distribution of District awards, thinking of new outlets for recognition, and the Membership Recognition Program. Here you will be able to find updated and improved District awards, manuals for said awards and recognition, the Master Records Sheet, and more!</p>
 
-    <!-- NOTE: These MRS files are here AND in the secretary page, so any changes you make should be made in both places -->
-    <a class="rss" target="_blank"><div class="panel panel-default rss rss-dropdown">
-      <button class="expand style-none" data-toggle="collapse" data-target="#collapseMRS">
-        <img class="type" src="../Assets/type-icons/list.png" alt="">Master Records Sheet Files
-      </button>
-    </div></a>
-    <div class="collapse-cont">
-      <div id="collapseMRS" class="collapse">
-        <a href="../Documents/MR/MRS/2019-2020 MRS_School Name.xlsm" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">2019-2020 Master Records Sheet (MRS)</div></a>
-        <a href="../Documents/MR/MRS/2019-2020 MRS_School Name_Example.xlsm" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">MRS Example</div></a>
-        <a href="../Documents/MR/MRS/2019-2020 MRS User Guide.pdf" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/pdf.png" alt="pdf" target="_blank">MRS User Guide</div></a>
-      </div>
+    <div id="resources">
     </div>
-
-    <a class="rss" target="_blank"><div class="panel panel-default rss rss-dropdown">
-      <button class="expand style-none" data-toggle="collapse" data-target="#ftc1920Awards">
-        <img class="type" src="../Assets/type-icons/list.png" alt="">Fall Training Conference 2019 Awards
-      </button>
-    </div></a>
-    <div class="collapse-cont">
-      <div id="ftc1920Awards" class="collapse">
-        <a href="../Documents/MR/(PC) 2019-2020 Outstanding Club T-Shirt Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">Outstanding Club T-Shirt Award</div></a>
-        <a href="../Documents/MR/(PC) 2019-2020 Outstanding Club Video Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">Outstanding Club Video Award</div></a>
-        <a href="../Documents/MR/(PC) 2019-2020 Outstanding Club Website Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">Outstanding Club Website Award</div></a>
-      </div>
-    </div>
-
-    <a class="rss" target="_blank"><div class="panel panel-default rss rss-dropdown">
-      <button class="expand style-none" data-toggle="collapse" data-target="#1819Awards">
-        <img class="type" src="../Assets/type-icons/list.png" alt="">2018-2019 Awards
-      </button>
-    </div></a>
-    <div class="collapse-cont">
-      <div id="1819Awards" class="collapse">
-        <a href="../Documents/MR/2018-2019 Awards/2018-2019 DCON Awards Manual.pdf" class="rss" target="_blank"><div class="panel panel-default rss"><img class="type" src="../Assets/type-icons/pdf.png" alt="pdf">2018-2019 DCON Awards Manual</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Distinguished Appointed Board Officer Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Distinguished Appointed Board Officer Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Distinguished Club Improvement Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Distinguished Club Improvement Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Distinguished Divisional Excellence Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Distinguished Divisional Excellence Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Distinguished Kiwanis Club Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Distinguished Kiwanis Club Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Distinguished President Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Distinguished President Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Distinguished Secretary Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Distinguished Secretary Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Distinguished Treasurer Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Distinguished Treasurer Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Distinguished Vice President Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Distinguished Vice President Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Don Hull Distinguished Kiwanis Family Relations Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Don Hull Distinguished Kiwanis Family Relations Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Endorsements Sheet.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Endorsements Sheet</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Faculty Advisor of the Year Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Faculty Advisor of the Year Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Hall of Fame Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Hall of Fame Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 John Nichelson Kiwanian of the Year Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) John Nichelson Kiwanian of the Year Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 John Woodall Distinguished Membership Development and Education Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) John Woodall Distinguished Member Development & Education Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Mei Po Wong Overall Service Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Mei Po Wong Overall Service Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 New Member of the Year Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) New Member of the Year Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Outstanding Club Newsletter Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Outstanding Club Newsletter Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Outstanding District Committee Member Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Outstanding District Committee Member Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Outstanding Interclubbing Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Outstanding Interclubbing Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Outstanding Non-Traditional Scrapbook Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Outstanding Non-Traditional Scrapbook Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Outstanding Single Service Project Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Outstanding Single Service Project Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Outstanding Total Achievement Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Outstanding Total Achievement Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Outstanding Traditional Scrapbook Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Outstanding Traditional Scrapbook Award</div></a>
-        <a href="../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Returning General Member of the Year Award.xlsx" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(DCON) Returning General Member of the Year Award</div></a>
-        <a href="http://www.cnhcirclek.org/download/2018-2019-outstanding-club-t-shirt-award/" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(FTC) Outstanding Club T-Shirt Award</div></a>
-        <a href="http://www.cnhcirclek.org/download/2018-2019-outstanding-club-video-award/" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(FTC) Outstanding Club Video Award</div></a>
-        <a href="http://www.cnhcirclek.org/download/2018-2019-outstanding-club-website-award/" class="rss" target="_blank"><div class="panel panel-default rss" target="_blank"><img class="type" src="../Assets/type-icons/xlsx.png" alt="xlsx" target="_blank">(FTC) Outstanding Club Website Award</div></a>
-      </div>
-    </div>
-
-    <a href="../Documents/MR/2017-2018-General-Recognition-Manual.pdf" class="rss" target="_blank"><div class="panel panel-default rss"><img class="type" src="../Assets/type-icons/pdf.png" alt="pdf">General Recognition Manual</div></a>
-    <a href="http://www.cnhcirclek.org/leadership/membership-recognition-program/" class="rss" target="_blank"><div class="panel panel-default rss"><img class="type" src="../Assets/type-icons/link.png" alt="link">Membership Recognition Program</div></a>
-
 
     <div class="filler"></div>
     <div class="bottom">
