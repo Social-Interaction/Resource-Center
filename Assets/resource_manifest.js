@@ -191,7 +191,7 @@ const resources = {
 			new Resource("2019-2020 John Nichelson Kiwanian of the Year Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-john-nichelson-kiwanian-of-the-year-award/"),
 			new Resource("2019-2020 John Woodall Distinguished Membership Development and Education Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-john-woodall-distinguished-membership-development-and-education-award/"),
 			new Resource("2019-2020 Mei Po Wong Overall Service Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-mei-po-wong-overall-service-award/"),
-			new Resource("2019-2020 Returning General Member of the Year Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-returning-general-member-of-the-year-award/")
+			new Resource("2019-2020 Returning General Member of the Year Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-returning-general-member-of-the-year-award/"),
 			new Resource("2019-2020 New Member of the Year Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-new-member-of-the-year-award/"),
 			new Resource("2019-2020 Outstanding Interclubbing Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-outstanding-interclubbing-award/"),
 			new Resource("2019-2020 Outstanding Club Media Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-outstanding-club-media-award/"),
