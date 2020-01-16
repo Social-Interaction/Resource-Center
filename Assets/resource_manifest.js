@@ -119,28 +119,20 @@ const resources = {
 
 	],
 	cm: [
-		new Dropdown("Graphics", "graphics", [
-			new Resource("Style Guide", "link", "http://www.cnhcirclek.org/download/style-guide/", "Covers Graphic Standards"),
-			new Resource("Graphic Standard Assets", "link", "http://www.cnhcirclek.org/download/graphic-standard-assets/"),
-			new Resource("Graphic Request Form", "link", "http://www.cnhcirclek.org/download/grphic-request-form/")
-		]),
+		new Resource("CNH District Style Guide", "link", "http://www.cnhcirclek.org/download/style-guide/", "Covers Graphic Standards"),
+		new Resource("Graphic Standard Assets", "link", "http://www.cnhcirclek.org/download/graphic-standard-assets/"),
+		new Resource("Graphic Request Form", "link", "http://www.cnhcirclek.org/download/grphic-request-form/"),
 		new Dropdown("Public Relations", "prelations", [
 			new Resource("External Media Database", "link", "http://www.cnhcirclek.org/download/external-media-database/", "External Media listings separated by division and school!"),
-			new Resource("Press Release Request Form", "link", "http://www.cnhcirclek.org/download/press-release-request-form/", "The C&M Committee will create a press release packet for you"),
 			new Resource("Press Release Manual", "pdf", "http://www.cnhcirclek.org/download/press-release-manual/", "Learn how to write press releases for external media outlets"),
 			new Resource("Finding Media Outlets", "link", "http://www.cnhcirclek.org/download/finding-media-outlets/", "Find media outlets for your press releases")
 		]),
 		new Dropdown("Social Media", "social", [
-			new Resource("Bi-Weekly Digest", "link", "http://www.cnhcirclek.org/download/bi-weekly-digest/", "Bi-Weekly updates from CNH Circle K!"),
-			new Resource("Different Platforms of Digital Promotion", "link", "http://www.cnhcirclek.org/download/different-platforms-of-digital-promotion/", "Learn how the different social media platforms operate"),
+			new Resource("Social Media References", "link", "http://www.cnhcirclek.org/download/social-media-references/"),
 			new Resource("Twitter Confessions", "link", "http://www.cnhcirclek.org/download/twitter-confessions/"),
-			new Resource("Snapchat Takeover", "link", "http://www.cnhcirclek.org/download/snapchat-takeover/")
 		]),
-		new Dropdown("Campus Relations", "crelations", [
-			new Resource("Tabling Manual", "link", "http://www.cnhcirclek.org/download/tabling-manual"),
-			new Resource("Recruitment & Marketing Resources", "link", "http://www.cnhcirclek.org/download/recruitment-and-marketing-resources/")
-		]),
-		new Resource("Sunburst Article Submission Form", "link", "https://docs.google.com/forms/d/e/1FAIpQLSdp3RHxoQcYaTnv44lL2B3xolZHyg6G4amWQ8n9CsBFiFOPFw/viewform?c=0&w=1", "Submit articles for Sunburst")
+		new Resource("Tabling Manual", "link", "http://www.cnhcirclek.org/download/tabling-manual")
+		// new Resource("Sunburst Article Submission Form", "link", "https://docs.google.com/forms/d/e/1FAIpQLSdp3RHxoQcYaTnv44lL2B3xolZHyg6G4amWQ8n9CsBFiFOPFw/viewform?c=0&w=1", "Submit articles for Sunburst")
 	],
 	fifun: [
 		new Resource("Treasurer/Fundraising Manual", "pdf", "http://www.cnhcirclek.org/download/treasurer-fundraising-manual/"),
@@ -152,6 +144,11 @@ const resources = {
 		])
 	],
 	kfam: [
+		new Resource("Kiwanis Family Starter Kit", "pdf", "http://www.cnhcirclek.org/download/kiwanis-family-starter-kit/"),
+		new Dropdown("ERF Supplemental Documents", "erfsupp", [
+			new Resource("Event Proposal Document", "pdf", "http://www.cnhcirclek.org/download/event-proposal-document/"),
+			new Resource("Waiver and Medical Consent Treatment", "pdf", "http://www.cnhcirclek.org/download/waiver-and-medical-consent-treatment/")
+		]),
 		new Dropdown("Growing the Kiwanis Family Branches", "growingkfam", [
 			new Resource("Co-Sponsoring a K-Kids or Builders Club Manual", "pdf", "http://www.cnhcirclek.org/download/co-sponsoring-a-k-kids-or-builders-club-manual/", "The importance of co-sponsoring a Builders Club/K-Kids. To build future leaders through community service. The manual was mainly about building future leaders and some service that each branch can do. As for Circle K or Kiwanis, it explains why we should charter/co-sponsor a Builders Club or K-Kids."),
 			new Resource("Building Kiwanis Family Relations Manual", "pdf", "http://www.cnhcirclek.org/download/building-kiwanis-family-relations-manual/", "The Kiwanis Family is vast in many ways. There is so much more to the Kiwanis Family than just Key Club and Kiwanis. Not sure what the different branches are? Look no further! This manual contains a brief summary of what each branch entails, as well as some ideas on how to reach out to the different branches."),
@@ -194,14 +191,15 @@ const resources = {
 			new Resource("2019-2020 John Nichelson Kiwanian of the Year Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-john-nichelson-kiwanian-of-the-year-award/"),
 			new Resource("2019-2020 John Woodall Distinguished Membership Development and Education Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-john-woodall-distinguished-membership-development-and-education-award/"),
 			new Resource("2019-2020 Mei Po Wong Overall Service Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-mei-po-wong-overall-service-award/"),
+			new Resource("2019-2020 Returning General Member of the Year Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-returning-general-member-of-the-year-award/")
 			new Resource("2019-2020 New Member of the Year Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-new-member-of-the-year-award/"),
+			new Resource("2019-2020 Outstanding Interclubbing Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-outstanding-interclubbing-award/"),
 			new Resource("2019-2020 Outstanding Club Media Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-outstanding-club-media-award/"),
 			new Resource("2019-2020 Outstanding District Committee Member Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-outstanding-district-committee-member-award/"),
 			new Resource("2019-2020 Outstanding Non-Traditional Scrapbook Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-outstanding-non-traditional-scrapbook-award/"),
 			new Resource("2019-2020 Outstanding Single Service Project Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-outstanding-single-service-project-award/"),
 			new Resource("2019-2020 Outstanding Total Achievement Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-outstanding-total-achievement-award/"),
 			new Resource("2019-2020 Outstanding Traditional Scrapbook Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-outstanding-traditional-scrapbook-award/"),
-			new Resource("2019-2020 Returning General Member of the Year Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-returning-general-member-of-the-year-award/")
 		]),
 		new Dropdown("Fall Training Conference 2019 Awards", "ftcawards", [
 			new Resource("Outstanding Club T-Shirt Award", "xlsx", "http://www.cnhcirclek.org/download/outstanding-club-t-shirt-award/"),
