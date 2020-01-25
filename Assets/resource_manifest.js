@@ -25,6 +25,9 @@ const resources = {
 		new Resource("Event Request Form (ERF)", "pdf", "http://www.cnhcirclek.org/download/event-request-form-erf/"),
 		new Resource("ERF Manual", "pdf", "http://www.cnhcirclek.org/download/erf-manual"),
 		new Dropdown("District Board Meeting Packets", "dbmp", [
+			new Resource("January 2020 District Board Meeting Packet", "pdf", "https://resources.cnhcirclek.org/Documents/District/Packets/January-2020-District-Board-Meeting-Packet.pdf"),
+			new Resource("December 2019 Special District Board Meeting Packet", "pdf", "https://resources.cnhcirclek.org/Documents/District/Packets/December-2019-Special-District-Board-Meeting-Packet.pdf"),
+			new Resource("November 2019 District Board Meeting Packet", "pdf", "https://resources.cnhcirclek.org/Documents/District/Packets/November-2019-District-Board-Meeting-Packet.pdf"),
 			new Resource("July 2019 District Board Meeting Packet", "pdf", "http://www.cnhcirclek.org/download/july-2019-district-board-meeting-packet/"),
 			new Resource("April 2019 District Board Meeting Packet", "pdf", "http://www.cnhcirclek.org/download/april-2019-district-board-meeting-packet/"),
 			new Resource("January 2019 District Board Meeting Packet", "pdf", "http://www.cnhcirclek.org/download/january-2019-district-board-packet/"),
@@ -38,6 +41,7 @@ const resources = {
 			new Resource("July 2017 District Board Meeting Packet", "pdf", "http://www.cnhcirclek.org/download/july-2017-district-board-meeting-packet/"),
 		]),
 		new Dropdown("District Board Meeting Minutes", "dbmm", [
+			new Resource("July 2019 District Board Meeting Minutes", "pdf", "https://resources.cnhcirclek.org/Documents/District/Minutes/july-2019-district-board-meeting-minutes.pdf"),
 			new Resource("April 2019 District Board Meeting Minutes", "pdf", "http://www.cnhcirclek.org/download/april-2019-district-board-meeting-minutes/"),
 			new Resource("January 2019 District Board Meeting Minutes", "pdf", "http://www.cnhcirclek.org/download/january-2019-district-board-meeting-minutes/"),
 			// new Resource("November 2018 District Board Meeting Minutes", "pdf", "http://www.cnhcirclek.org/download/november-2018-district-board-meeting-minutes/"),
