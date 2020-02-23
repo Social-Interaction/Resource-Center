@@ -41,7 +41,9 @@ const resources = {
 			new Resource("July 2017 District Board Meeting Packet", "pdf", "http://www.cnhcirclek.org/download/july-2017-district-board-meeting-packet/"),
 		]),
 		new Dropdown("District Board Meeting Minutes", "dbmm", [
-			new Resource("July 2019 District Board Meeting Minutes", "pdf", "https://resources.cnhcirclek.org/Documents/District/Minutes/july-2019-district-board-meeting-minutes.pdf"),
+			new Resource("December 2019 Special District Board Meeting Minutes", "pdf", "https://www.cnhcirclek.org/download/december-2019-special-district-board-meeting-minutes.pdf"),
+			new Resource("November 2019 District Board Meeting Minutes", "pdf", "https://www.cnhcirclek.org/download/november-2019-district-board-meeting-minutes.pdf"),
+			new Resource("July 2019 District Board Meeting Minutes", "pdf", "https://www.cnhcirclek.org/download/july-2019-district-board-meeting-minutes.pdf"),
 			new Resource("April 2019 District Board Meeting Minutes", "pdf", "http://www.cnhcirclek.org/download/april-2019-district-board-meeting-minutes/"),
 			new Resource("January 2019 District Board Meeting Minutes", "pdf", "http://www.cnhcirclek.org/download/january-2019-district-board-meeting-minutes/"),
 			// new Resource("November 2018 District Board Meeting Minutes", "pdf", "http://www.cnhcirclek.org/download/november-2018-district-board-meeting-minutes/"),
@@ -167,6 +169,7 @@ const resources = {
 		new Resource("Transitioning from Key Club and KIWIN'S to Circle K Manual", "pdf", "http://www.cnhcirclek.org/download/transitioning-from-key-club-and-kiwins-to-circle-k-manual/")
 	],
 	mde: [
+		new Resource("Small and Large-Scale Event Planning", "pdf", "http://www.cnhcirclek.org/download/small-and-large-scale-event-planning/"),
 		new Resource("Icebreaker Manual", "pdf", "http://www.cnhcirclek.org/download/icebreakers-manual/"),
 		new Resource("Tabling Manual", "pdf", "http://www.cnhcirclek.org/download/tabling-manual/"),
 		new Resource("Member Recruitment and Retentional Manual", "pdf", "http://www.cnhcirclek.org/download/member-retruitment-and-retention-manual/"),
