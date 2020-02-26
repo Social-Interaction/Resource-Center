@@ -19,9 +19,9 @@ class Dropdown {
 // Prefer redirect-download links to be able to track clicks
 const resources = {
 	district: [
-		new Resource("Club Bylaws Amendment Guide", "pdf" , "http://www.cnhcirclek.org/download/club-bylaws-amendment-guide/"),
 		new Resource("District Bylaws", "pdf", "http://www.cnhcirclek.org/download/district-bylaws/"),
 		new Resource("District Operating Procedures", "pdf", "http://www.cnhcirclek.org/download/district-operating-procedures/"),
+		new Resource("Club Bylaws Amendment Guide", "pdf" , "http://www.cnhcirclek.org/download/club-bylaws-amendment-guide/"),
 		new Resource("Event Request Form (ERF)", "pdf", "http://www.cnhcirclek.org/download/event-request-form-erf/"),
 		new Resource("ERF Manual", "pdf", "http://www.cnhcirclek.org/download/erf-manual"),
 		new Dropdown("District Board Meeting Packets", "dbmp", [
