@@ -65,7 +65,7 @@ const resources = {
 			new Resource("Secretary Service Agreement", "word", "http://www.cnhcirclek.org/download/secretary-service-agreement"),
 			new Resource("Treasurer Service Agreement", "word", "http://www.cnhcirclek.org/download/treasurer-service-agreement"),
 		]),
-		new Resource("Delegate Certification 2019", "word", "http://www.cnhcirclek.org/download/delegate-certification-2019"),
+		new Resource("Delegate Certification 2020", "word", "http://www.cnhcirclek.org/download/delegate-certification-2020"),
 	],
 	divisions: [
 		new Dropdown("Capital", "capital", [
