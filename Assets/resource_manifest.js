@@ -25,6 +25,7 @@ const resources = {
 		new Resource("Event Request Form (ERF)", "pdf", "http://www.cnhcirclek.org/download/event-request-form-erf/"),
 		new Resource("ERF Manual", "pdf", "http://www.cnhcirclek.org/download/erf-manual"),
 		new Dropdown("District Board Meeting Packets", "dbmp", [
+			new Resource("March 2020 District Board Meeting Packet", "pdf", "https://resources.cnhcirclek.org/Documents/District/Packets/March-2020-District-Board-Meeting-Packet.pdf"),
 			new Resource("January 2020 District Board Meeting Packet", "pdf", "https://resources.cnhcirclek.org/Documents/District/Packets/January-2020-District-Board-Meeting-Packet.pdf"),
 			new Resource("December 2019 Special District Board Meeting Packet", "pdf", "https://resources.cnhcirclek.org/Documents/District/Packets/December-2019-Special-District-Board-Meeting-Packet.pdf"),
 			new Resource("November 2019 District Board Meeting Packet", "pdf", "https://resources.cnhcirclek.org/Documents/District/Packets/November-2019-District-Board-Meeting-Packet.pdf"),
