@@ -248,12 +248,12 @@ const resources = {
 		new Resource("Membership Recognition Program", "link", "http://www.cnhcirclek.org/download/membership-recognition-program")
 	],
 	secretary: [
-		new Dropdown("2019-2020 Club Event Report Form (CERF)", "cerf", [
-			new Resource("Blank CERF 2019-2020", "xlsx", "http://www.cnhcirclek.org/download/blank-cerf-2019-2020/"),
+		new Dropdown("2020-2021 Club Event Report Form (CERF)", "cerf", [
+			new Resource("Blank CERF 2020-2021", "xlsx", "http://www.cnhcirclek.org/download/blank-cerf-2020-2021/"),
 			new Resource("CERF Manual", "pdf", "http://www.cnhcirclek.org/download/cerf-manual/")
 		]),
-		new Dropdown("2019-2020 Monthly Report Form (MRF)", "mrf", [
-			new Resource("Blank MRF 2019-2020", "xlsx", "http://www.cnhcirclek.org/download/blank-mrf-2019-2020/"),
+		new Dropdown("2020-2021 Monthly Report Form (MRF)", "mrf", [
+			new Resource("Blank MRF 2020-2021", "xlsx", "http://www.cnhcirclek.org/download/blank-mrf-2020-2021/"),
 			new Resource("MRF Manual", "pdf", "http://www.cnhcirclek.org/download/mrf-manual/")
 		]),
 		// this is the same dropdown in mr
