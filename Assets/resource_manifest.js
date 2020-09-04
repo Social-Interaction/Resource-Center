@@ -179,9 +179,9 @@ const resources = {
 	mr: [
 		// this is the same dropdown in secretary
 		new Dropdown("Master Record Sheet Files", "mrs", [
-			new Resource("2020-2021 Master Record Sheet (MRS)", "xlsx", "https://github.com/CNHCircleK/Resource-Center/blob/master/Documents/MR/MRS/2020-2021%20MRS_School%20Name.xlsm"),
-			new Resource("MRS Example", "xlsx", "http://www.cnhcirclek.org/download/mrs-example-2/"),
-			new Resource("MRS User Guide", "pdf", "http://www.cnhcirclek.org/download/mrs-user-guide-2/")
+			new Resource("2020-2021 Master Record Sheet (MRS)", "xlsx", "http://resources.cnhcirclek.org/Documents/MR/MRS/2020-2021%20MRS_School%20Name.xlsm"),
+			new Resource("MRS Example", "xlsx", "http://resources.cnhcirclek.org/Documents/MR/MRS/2020-2021 MRS_School Name_Example.xlsm"),
+			new Resource("MRS User Guide", "pdf", "http://resources.cnhcirclek.org/Documents/MR/MRS/2020-2021 MRS User Guide.pdf")
 		]),
 		new Dropdown("Distrct Convention 2020 Awards", "dconawards", [
 			new Resource("2019-2020 Distinguished Appointed Board Officer Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-distinguished-appointed-board-officer/"),
