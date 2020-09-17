@@ -179,7 +179,7 @@ const resources = {
 	mr: [
 		// this is the same dropdown in secretary
 		new Dropdown("Master Record Sheet Files", "mrs", [
-			new Resource("2020-2021 Master Record Sheet (MRS)", "xlsx", "http://resources.cnhcirclek.org/Documents/MR/MRS/2020-2021%20MRS_School%20Name.xlsm"),
+			new Resource("2020-2021 Master Record Sheet (MRS)", "xlsx", "http://resources.cnhcirclek.org/Documents/MR/MRS/2020-2021 MRS_School Name.xlsm"),
 			new Resource("MRS Example", "xlsx", "http://resources.cnhcirclek.org/Documents/MR/MRS/2020-2021 MRS_School Name_Example.xlsm"),
 			new Resource("MRS User Guide", "pdf", "http://resources.cnhcirclek.org/Documents/MR/MRS/2020-2021 MRS User Guide.pdf")
 		]),
