@@ -209,10 +209,10 @@ const resources = {
 			new Resource("2019-2020 Outstanding Total Achievement Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-outstanding-total-achievement-award/"),
 			new Resource("2019-2020 Outstanding Traditional Scrapbook Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-outstanding-traditional-scrapbook-award/"),
 		]),
-		new Dropdown("Fall Training Conference 2019 Awards", "ftcawards", [
-			new Resource("Outstanding Club T-Shirt Award", "xlsx", "http://www.cnhcirclek.org/download/outstanding-club-t-shirt-award/"),
-			new Resource("Outstanding Club Video Award", "xlsx", "http://www.cnhcirclek.org/download/outstanding-club-video-award/"),
-			new Resource("Outstanding Club Website Award", "xlsx", "http://www.cnhcirclek.org/download/outstanding-club-t-shirt-award/")
+		new Dropdown("Fall Training Conference 2020 Awards", "ftcawards", [
+			new Resource("Outstanding Club T-Shirt Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_tshirt_award"),
+			new Resource("Outstanding Club Video Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_video_award"),
+			new Resource("Outstanding Club Website Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_website_award")
 		]),
 		new Dropdown("2018-2019 Awards", "pastawards", [
 			new Resource("2018-2019 DCON Awards Manual", "pdf", "../Documents/MR/2018-2019 Awards/2018-2019 DCON Awards Manual.pdf"),
