@@ -219,7 +219,7 @@ const resources = {
 			new Resource("(FTC) Outstanding Club T-Shirt Award", "xlsx", "http://www.cnhcirclek.org/download/outstanding-club-t-shirt-award/"),
 			new Resource("(FTC) Outstanding Club Video Award", "xlsx", "http://www.cnhcirclek.org/download/outstanding-club-video-award/"),
 			new Resource("(FTC) Outstanding Club Website Award", "xlsx", "http://www.cnhcirclek.org/download/outstanding-club-t-shirt-award/")
-			]
+			])
 		new Dropdown("2018-2019 Awards", "pastawards", [
 			new Resource("2018-2019 DCON Awards Manual", "pdf", "../Documents/MR/2018-2019 Awards/2018-2019 DCON Awards Manual.pdf"),
 			new Resource("(DCON) Distinguished Appointed Board Officer Award", "xlsx", "../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Distinguished Appointed Board Officer Award.xlsx"),
