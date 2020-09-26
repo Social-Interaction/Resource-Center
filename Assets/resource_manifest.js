@@ -183,7 +183,7 @@ const resources = {
 			new Resource("MRS Example", "xlsx", "http://resources.cnhcirclek.org/Documents/MR/MRS/2020-2021 MRS_School Name_Example.xlsm"),
 			new Resource("MRS User Guide", "pdf", "http://resources.cnhcirclek.org/Documents/MR/MRS/2020-2021 MRS User Guide.pdf")
 		]),
-		new Dropdown("District Convention 2020 Awards", "dconawards", [
+		new Dropdown("District Convention 2021 Awards", "dconawards", [
 			"To Be Announced";
 		]),
 		new Dropdown("Fall Training Conference 2020 Awards", "ftcawards", [
