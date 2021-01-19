@@ -194,7 +194,7 @@ const resources = {
 				new Resource("II.E. Kiwanis Family Meetings", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Appointed Board Member/II.E. Kiwanis Family Meetings.xlsx"),
 				new Resource("III.C. Committee Meeting(s)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Appointed Board Member/III.C. Committee Meeting(s).xlsx"),
 				new Resource("III.J. Publications", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Appointed Board Member/III.J. Publications.xlsx")
-				]),
+				])
 		]),
 		new Dropdown("Fall Training Conference 2020 Awards", "ftcawards", [
 			new Resource("Outstanding Club T-Shirt Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_tshirt_award"),
