@@ -184,7 +184,8 @@ const resources = {
 			new Resource("MRS User Guide", "pdf", "http://resources.cnhcirclek.org/Documents/MR/MRS/2020-2021 MRS User Guide.pdf")
 		]),
 		new Dropdown("District Convention 2021 Awards", "dconawards", [
-			//"To Be Announced";
+				new Resource("District Convention 2021 Master Award Sheet", "link", "https://docs.google.com/spreadsheets/d/1_V9nCoIqAlqwb6OWNWFu1aAkBQ_G1J5xXgXb8xvr5dc/edit?fbclid=IwAR0xFEdsrPYvKtaoXDAcHVuqBeE3s5Aqbo7DGsAdZK_q3GkNmrfitO-LEOA#gid=0"),
+				new Resource("2021 Endorsement Sheet", "link", "http://resources.cnhcirclek.org/Documents/MR/Endorsement Sheet/2020-2021 Endorsements Sheet.xlsx")
 		]),
 		new Dropdown("Fall Training Conference 2020 Awards", "ftcawards", [
 			new Resource("Outstanding Club T-Shirt Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_tshirt_award"),
