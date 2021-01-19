@@ -185,7 +185,7 @@ const resources = {
 		]),
 		
 		new Dropdown("District Convention 2021 Awards", "dconawards", [
-			new Resource("District Convention 2021 Master Award Sheet", "link", "https://docs.google.com/spreadsheets/d/1_V9nCoIqAlqwb6OWNWFu1aAkBQ_G1J5xXgXb8xvr5dc/edit?fbclid=IwAR0xFEdsrPYvKtaoXDAcHVuqBeE3s5Aqbo7DGsAdZK_q3GkNmrfitO-LEOA#gid=0"),
+			new Resource("District Convention 2021 Master Award Sheet", "link", "https://docs.google.com/spreadsheets/d/1_V9nCoIqAlqwb6OWNWFu1aAkBQ_G1J5xXgXb8xvr5dc/edit?fbclid=IwAR0xFEdsrPYvKtaoXDAcHVuqBeE3s5Aqbo7DGsAdZK_q3GkNmrfitO-LEOA#gid=0")
 		]),
 		new Dropdown("Fall Training Conference 2020 Awards", "ftcawards", [
 			new Resource("Outstanding Club T-Shirt Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_tshirt_award"),
