@@ -26,7 +26,7 @@ createDropdownList = (dropdown) => {
 			dropdownList.append(createLink(resource));
 		}
 
-		else if(resource instanceof dropDown)
+		else if(resource instanceof Dropdown)
 		{
 			dropdownList.append(createDropdownButton(resource));
 			dropdownList.append(createDropdownList(resource));
