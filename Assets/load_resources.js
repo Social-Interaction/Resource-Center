@@ -29,7 +29,7 @@ createDropdownList = (dropdown) => {
 		else if(resource instanceof dropDown)
 		{
 			dropdownList.append(createDropdownButton(resource));
-			dropdownList.append(createDropdownList(resoruce));
+			dropdownList.append(createDropdownList(resource));
 		}
 	});
 
