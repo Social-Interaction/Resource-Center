@@ -21,7 +21,16 @@ createDropdownList = (dropdown) => {
 	let dropdownList = $('<div class="collapse" />').attr('id', 'collapse' + dropdown.id);
 
 	dropdown.resourceList.forEach(resource => {
-		dropdownList.append(createLink(resource));
+		if(resource instanceof Resource)
+		{
+			dropdownList.append(createLink(resource));
+		}
+
+		else if(resource instanceof dropDown)
+		{
+			dropdownList.append(createDropdownButton(resource));
+			dropdownList.append(createDropdownList(resoruce));
+		}
 	});
 
 	return $('<div class="collapse-cont" />').append(dropdownList);
