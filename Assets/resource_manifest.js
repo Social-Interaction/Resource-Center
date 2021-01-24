@@ -236,13 +236,67 @@ const resources = {
 				new Resource("III.E. Fundraisers Conducted","xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Treasurer/III.E. Fundraisers Conducted.xlsx"),
 				new Resource("III.J. Publications", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Treasurer/III.J. Publications.xlsx")
 			]),
-			
-		]),
-		new Dropdown("Fall Training Conference 2020 Awards", "ftcawards", [
-			new Resource("Outstanding Club T-Shirt Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_tshirt_award"),
-			new Resource("Outstanding Club Video Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_video_award"),
-			new Resource("Outstanding Club Website Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_website_award")
-		]),
+			new Dropdown("Distinguished Vice President", "vp", [
+				new Resource("I.A. Divisional Event(s)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Vice President/I.A. Divisional Event(s).xlsx"),
+				new Resource("I.A. Other Kiwanis Family Training Conference(s)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Vice President/I.A. Other Kiwanis Family Training Conference(s).xlsx"),
+				new Resource("I.B. Facilitated Workshop(s)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Vice President/I.B. Facilitated Workshop(s).xlsx"),
+				new Resource("II.D. Additional Circle K Meeting(s)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Vice President/II.D. Additional Circle K Meeting(s).xlsx"),
+				new Resource("II.E. Kiwanis Family Meetings", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Vice President/"),
+				new Resource("III. List of Committees", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Vice President/III. List of Committees.xlsx"),
+				new Resource("III. Publications", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Vice President/III. Publications.xlsx"),
+				new Resource("III.C. List of Service Projects", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Distinguished Vice President/III.C. List of Service Projects.xlsx")
+			]),
+			new Dropdown("Don Hull Distinguished Kiwanis Family Relations Award", "donhull",[
+				new Resource("III. Meeting Attendance_", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Don Hull Distinguished Kiwanis Family Relations Award/III. Meeting Attendance_.xlsx"),
+				new Resource("IV. Projects _ Events_", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Don Hull Distinguished Kiwanis Family Relations Award/IV. Projects _ Events_.xlsx"),
+				new Resource("V. Other Functions", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Don Hull Distinguished Kiwanis Family Relations Award/V. Other Functions.xlsx")
+			]),
+			new Dropdown("Hall of Fame Award", "halloffame", [
+
+			]),
+			new Dropdown("John Nichelson Kiwanian of the Year Award", "JohnNichelson", [
+
+			]),
+			new Dropdown("John Woodall Distinguished Membership Development and Education Award", "JohnWoodall", [
+				new Resource("III.A. Educational Workshops", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/John Woodall Distinguished Membership Development and Education Award/III.A. Educational Workshops.xlsx")
+			]),
+			new Dropdown("Mei Po Wong Overall Service Award", "MeiPoWong",[
+				new Resource("I. International Service Partners _ Charities", "xlsx","http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Mei Po Wong Overall Service Award/I. International Service Partners _ Charities.xlsx"),
+				new Resource("II. District Service Initiative", "xlsx","http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Mei Po Wong Overall Service Award/II. District Service Initiative.xlsx"),
+				new Resource("III. Community Service", "xlsx","http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Mei Po Wong Overall Service Award/III. Community Service.xlsx"),
+				new Resource("IV. Campus Service", "xlsx","http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Mei Po Wong Overall Service Award/IV. Campus Service.xlsx"),
+				new Resource("V. Continuous Service", "xlsx","http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Mei Po Wong Overall Service Award/V. Continuous Service.xlsx"),
+				new Resource("VI. Service Administration", "xlsx","http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Mei Po Wong Overall Service Award/VI. Service Administration.xlsx")
+			]),
+			new Dropdown("New Member of the Year Award,", "newmember", [
+				new Resource("II.A. Chaired Events", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/New Member of the Year Award/II.A. Chaired Events.xlsx"),
+				new Resource("II.B. Facilitated Workshops", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/New Member of the Year Award/II.B. Facilitated Workshops.xlsx"),
+				new Resource("II.C. Publications", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/New Member of the Year Award/II.C. Publications.xlsx"),
+				new Resource("III.B. Additional Circle K Meetings", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/New Member of the Year Award/III.B. Additional Circle K Meetings.xlsx"),
+				new Resource("III.C. Divisional Council Meetings (DCMs)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/New Member of the Year Award/III.C. Divisional Council Meetings (DCMs).xlsx"),
+				new Resource("III.D. Other Kiwanis Family DCMs", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/New Member of the Year Award/III.D. Other Kiwanis Family DCMs.xlsx")
+			]),
+			new Dropdown("Outstanding Club Media Award", "media", [
+
+			]),
+			new Dropdown("Outstanding District Committee Member Award", "districtcommittee",[
+				new Resource("I.B. Facilitated Workshop(s)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Outstanding District Committee Member Award/I.B. Facilitated Workshop(s).xlsx"),
+				new Resource("II.D. Additional Circle K Meetings", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Outstanding District Committee Member Award/II.D. Additional Circle K Meetings.xlsx"),
+				new Resource("II.E. Other Kiwanis Family Meetings", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Outstanding District Committee Member Award/II.E. Other Kiwanis Family Meetings.xlsx"),
+				new Resource("III.G. Publications", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Outstanding District Committee Member Award/III.G. Publications.xlsx")
+			]),
+			new Dropdown("Outstanding Divisional Leadership Team Award", "DLT", [
+				new Resource("I.B. Divisional Event(s)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Outstanding Divisional Leadership Team Award/I.B. Divisional Event(s).xlsx"),
+				new Resource("I.B. Facilitated Workshop(s)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Outstanding Divisional Leadership Team Award/I.B. Facilitated Workshop(s).xlsx"),
+				new Resource("II.D. Additional Circle K Meeting(s)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Outstanding Divisional Leadership Team Award/II.D. Additional Circle K Meeting(s).xlsx"),
+				new Resource("II.E. Kiwanis Family Meetings", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Outstanding Divisional Leadership Team Award/II.E. Kiwanis Family Meetings.xlsx"),
+				new Resource("III.G. Publications", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Outstanding Divisional Leadership Team Award/III.G. Publications.xlsx")
+			]),
+			new Dropdown("Fall Training Conference 2020 Awards", "ftcawards", [
+				new Resource("Outstanding Club T-Shirt Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_tshirt_award"),
+				new Resource("Outstanding Club Video Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_video_award"),
+				new Resource("Outstanding Club Website Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_website_award")
+			]),
 		new Dropdown("2019-2020 Awards", "pastawards1920", [
 			new Resource("(DCON) 2019-2020 Distinguished Appointed Board Officer Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-distinguished-appointed-board-officer/"),
 			new Resource("(DCON) 2019-2020 Distinguished Club Improvement Award", "xlsx", "http://www.cnhcirclek.org/download/2019-2020-distinguished-club-improvement-award/"),
@@ -271,7 +325,7 @@ const resources = {
 			new Resource("(FTC) Outstanding Club T-Shirt Award", "xlsx", "http://www.cnhcirclek.org/download/outstanding-club-t-shirt-award/"),
 			new Resource("(FTC) Outstanding Club Video Award", "xlsx", "http://www.cnhcirclek.org/download/outstanding-club-video-award/"),
 			new Resource("(FTC) Outstanding Club Website Award", "xlsx", "http://www.cnhcirclek.org/download/outstanding-club-t-shirt-award/")
-			]),
+		]),
 		new Dropdown("2018-2019 Awards", "pastawards1819", [
 			new Resource("2018-2019 DCON Awards Manual", "pdf", "../Documents/MR/2018-2019 Awards/2018-2019 DCON Awards Manual.pdf"),
 			new Resource("(DCON) Distinguished Appointed Board Officer Award", "xlsx", "../Documents/MR/2018-2019 Awards/(PC) 2018-2019 Distinguished Appointed Board Officer Award.xlsx"),
