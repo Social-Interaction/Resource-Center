@@ -251,12 +251,6 @@ const resources = {
 				new Resource("IV. Projects _ Events_", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Don Hull Distinguished Kiwanis Family Relations Award/IV. Projects _ Events_.xlsx"),
 				new Resource("V. Other Functions", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Don Hull Distinguished Kiwanis Family Relations Award/V. Other Functions.xlsx")
 			]),
-			new Dropdown("Hall of Fame Award", "halloffame", [
-
-			]),
-			new Dropdown("John Nichelson Kiwanian of the Year Award", "JohnNichelson", [
-
-			]),
 			new Dropdown("John Woodall Distinguished Membership Development and Education Award", "JohnWoodall", [
 				new Resource("III.A. Educational Workshops", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/John Woodall Distinguished Membership Development and Education Award/III.A. Educational Workshops.xlsx")
 			]),
@@ -275,9 +269,6 @@ const resources = {
 				new Resource("III.B. Additional Circle K Meetings", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/New Member of the Year Award/III.B. Additional Circle K Meetings.xlsx"),
 				new Resource("III.C. Divisional Council Meetings (DCMs)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/New Member of the Year Award/III.C. Divisional Council Meetings (DCMs).xlsx"),
 				new Resource("III.D. Other Kiwanis Family DCMs", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/New Member of the Year Award/III.D. Other Kiwanis Family DCMs.xlsx")
-			]),
-			new Dropdown("Outstanding Club Media Award", "media", [
-
 			]),
 			new Dropdown("Outstanding District Committee Member Award", "districtcommittee",[
 				new Resource("I.B. Facilitated Workshop(s)", "xlsx", "http://resources.cnhcirclek.org//Documents/MR/District Convention 2021 Awards/Outstanding District Committee Member/I.B. Facilitated Workshop(s).xlsx"),
