@@ -138,8 +138,8 @@ const resources = {
 			new Resource("Social Media References", "link", "http://www.cnhcirclek.org/download/social-media-references/"),
 			new Resource("Twitter Confessions", "link", "http://www.cnhcirclek.org/download/twitter-confessions/"),
 		]),
-		new Resource("Tabling Manual", "link", "http://www.cnhcirclek.org/download/tabling-manual")
-		// new Resource("Sunburst Article Submission Form", "link", "https://docs.google.com/forms/d/e/1FAIpQLSdp3RHxoQcYaTnv44lL2B3xolZHyg6G4amWQ8n9CsBFiFOPFw/viewform?c=0&w=1", "Submit articles for Sunburst")
+		new Resource("Tabling Manual", "link", "http://www.cnhcirclek.org/download/tabling-manual"),
+		new Resource("Sunburst Article Submission Form", "link", "https://docs.google.com/forms/d/e/1FAIpQLSdp3RHxoQcYaTnv44lL2B3xolZHyg6G4amWQ8n9CsBFiFOPFw/viewform?c=0&w=1", "Submit articles for Sunburst")
 	],
 	fifun: [
 		new Resource("Treasurer/Fundraising Manual", "pdf", "http://www.cnhcirclek.org/download/treasurer-fundraising-manual/"),
