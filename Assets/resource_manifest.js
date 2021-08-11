@@ -128,7 +128,7 @@ const resources = {
 	cm: [
 		new Resource("CNH District Style Guide", "link", "http://www.cnhcirclek.org/download/style-guide/", "Covers Graphic Standards"),
 		new Resource("Graphic Standard Assets", "link", "http://www.cnhcirclek.org/download/graphic-standard-assets/"),
-		new Resource("Graphic Request Form", "link", "http://www.cnhcirclek.org/download/grphic-request-form/"),
+		new Resource("Graphic Request Form", "link", "https://docs.google.com/forms/d/e/1FAIpQLScTOWTjKp5m0DNTw_DyLl1y5yAqR6pjdb7s9iRsd6HYO-P2tw/viewform"),
 		new Dropdown("Public Relations", "prelations", [
 			new Resource("External Media Database", "link", "http://www.cnhcirclek.org/download/external-media-database/", "External Media listings separated by division and school!"),
 			new Resource("Press Release Manual", "pdf", "http://www.cnhcirclek.org/download/press-release-manual/", "Learn how to write press releases for external media outlets"),
