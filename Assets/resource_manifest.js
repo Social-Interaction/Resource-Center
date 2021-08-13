@@ -123,7 +123,7 @@ const resources = {
 		new Resource("District Convention 2018", "link", "http://www.cnhcirclek.org/download/district-convention-2018/")
 	],
 	cbr: [
-		new Resource("Test Link", "link", "http://www.cnhcirclek.org/download/fall-training-conference-2019/")
+		new Resource("Club Form", "xlsx", "http://resources.cnhcirclek.org//Documents/CB&R/Club Form.xlsx")
 	],
 	cm: [
 		new Resource("CNH District Style Guide", "link", "http://www.cnhcirclek.org/download/style-guide/", "Covers Graphic Standards"),
