@@ -123,7 +123,9 @@ const resources = {
 		new Resource("District Convention 2018", "link", "http://www.cnhcirclek.org/download/district-convention-2018/")
 	],
 	cbr: [
-		new Resource("Club Form", "xlsx", "http://resources.cnhcirclek.org//Documents/CB&R/Club Form.xlsx")
+		new Resource("Chartering Manual", "link", "https://zeroheight.com/61f08f7c2/p/12ae5d-chartering-manual"), 
+		new Resource("Club Health Guide", "link", "https://zeroheight.com/2834d2899/p/3318ab-club-health-library"),
+		new Resource("Satellite Club Manual", "link", "https://zeroheight.com/735ef5ad6/p/46ad11-satellite-club-guide")
 	],
 	cm: [
 		new Resource("CNH District Style Guide", "link", "http://www.cnhcirclek.org/download/style-guide/", "Covers Graphic Standards"),
