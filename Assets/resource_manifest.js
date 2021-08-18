@@ -391,7 +391,14 @@ const resources = {
 		])
 	],
 	service: [
-		new Resource("Service Resource Database", "pdf", "http://www.cnhcirclek.org/download/service-resource-database/", "The Service Resource Database is the goto informational document for the CKI service officer! Please submit feedback to service@cnhcirclek.org")
+		/*new Dropdown("DLSSP", "dlssp", [
+			new Resource("DLSSP 2022", "link", "https://drive.google.com/drive/folders/11qgOieLOCOO7uZhK6sJwZ3wbEaT_advR", "Archive of Service Related Workshops and Webinar Slides"),
+		]}*/
+		new Resource("Service Resource Database", "pdf", "http://www.cnhcirclek.org/download/service-resource-database/", "The Service Resource Database is the goto informational document for the CKI service officer! Please submit feedback to service@cnhcirclek.org"),
+		new Resource("Service Resource Mini-Manual", "pdf", "../Documents/Service/2020-21%20Service%20Mini-Manual.pdf", "A little supplement to the above manual"),
+		new Resource("Service Workshop and Webinar Slides", "link", "https://drive.google.com/drive/folders/11qgOieLOCOO7uZhK6sJwZ3wbEaT_advR", "Archive of Service Related Workshops and Webinar Slides"),
+		new Resource("Service Webinar Playlist", "link", "https://youtube.com/playlist?list=PLFt5RzNe-KXygC910pu2vV2PrPrYhYdiY", "Archive of Service Related Webinar Recordings"),
+		new Resource("Quick Service Resource Graphics", "link", "https://drive.google.com/drive/folders/1uuIMsW5JUWku9O-kh68LSa3ObYJ284ca", "Quick advice and resources for Service Officers")
 	],
 	tech: [
 		new Dropdown("Website Resources", "website", [
