@@ -306,6 +306,12 @@ const resources = {
 			])
 
 		]),
+			new Dropdown("Fall Training Conference 2021 Awards", "ftcawards", [
+				new Resource("FTC 2021 Master Award Sheet", "link", "https://docs.google.com/spreadsheets/d/1NQ8HyaTMKztzMlTlXT3Skayi7RFXB9JjsweSzKtLyCM/edit?fbclid=IwAR17IDsxnbCu7kC3bWO-NEsLl--loyxIKCuRgJwQ0hltdrcsWUrHSv7l84I#gid=0"),
+				new Resource("Outstanding Club T-Shirt Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20212022_outstanding_club_tshirt_award"),
+				new Resource("Outstanding Club Video Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20212022_outstanding_club_video_award"),
+				new Resource("Outstanding Club Website Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20212022_outstanding_club_website_award")
+			]),
 			new Dropdown("Fall Training Conference 2020 Awards", "ftcawards", [
 				new Resource("Outstanding Club T-Shirt Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_tshirt_award"),
 				new Resource("Outstanding Club Video Award", "link", "https://kiwaniscnhfoundation.formstack.com/forms/20202021_outstanding_club_video_award"),
