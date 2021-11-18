@@ -22,8 +22,11 @@ const resources = {
 		new Resource("District Bylaws", "pdf", "http://resources.cnhcirclek.org/Documents/District/CNH Circle K District Bylaws Updated 05.02.2019.pdf"),
 		new Resource("District Operating Procedures", "pdf", "http://resources.cnhcirclek.org/Documents/District/CNH Circle K District Operating Procedures Updated-05.02.19.pdf"),
 		new Resource("Club Bylaws Amendment Guide", "pdf" , "http://www.cnhcirclek.org/download/club-bylaws-amendment-guide/"),
-		new Resource("Event Request Form (ERF)", "pdf", "http://www.cnhcirclek.org/download/event-request-form-erf/"),
-		new Resource("ERF Manual", "pdf", "http://www.cnhcirclek.org/download/erf-manual"),
+		new Dropdown("Event Request Form (ERF)", "erf", [
+			new Resource("Event Request Form (ERF) Online", "link", "https://forms.gle/gpwwgfC3cXqwPigz5"),
+			new Resource("Event Request Form (ERF) PDF", "pdf", "https://drive.google.com/file/d/1HxUEazzhILY6UoYsT183zLAJmiKvfpup/view"),
+			//new Resource("ERF Manual", "pdf", "http://www.cnhcirclek.org/download/erf-manual"),
+		]),
 		new Dropdown("District Board Meeting Packets", "dbmp", [
 			new Resource("March 2020 District Board Meeting Packet", "pdf", "https://resources.cnhcirclek.org/Documents/District/Packets/March-2020-District-Board-Meeting-Packet.pdf"),
 			new Resource("January 2020 District Board Meeting Packet", "pdf", "https://resources.cnhcirclek.org/Documents/District/Packets/January-2020-District-Board-Meeting-Packet.pdf"),
