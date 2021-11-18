@@ -87,7 +87,8 @@ const resources = {
 			new Resource("Website", "link", "http://www.cnhcirclek.org/download/website/"),
 			new Resource("Key to Presidency", "pdf", "http://www.cnhcirclek.org/download/key-to-presidency/"),
 			new Resource("Elections Manual", "link", "http://www.cnhcirclek.org/download/elections-manual/"),
-		]),
+		]), 
+		/*
 		new Dropdown("Citrus", "citrus", [
 			new Resource("Calendar of Events", "link", "http://www.cnhcirclek.org/download/calendar-of-events-2/"),
 			new Resource("Club General Meeting Times, Locations & Parking Info", "link", "http://www.cnhcirclek.org/download/club-general-meeting-time-locations-parking-information/"),
@@ -95,7 +96,7 @@ const resources = {
 			new Resource("March DCM Signup", "link", "http://www.cnhcirclek.org/download/march-dcm-sign-up/"),
 			new Resource("Magic Kingdom Merch Order Form", "link", "http://www.cnhcirclek.org/download/magic-kingdom-merch-order-form/"),
 			new Resource("Magic Kingdom Kiwanis Family Unity Day", "link", "http://www.cnhcirclek.org/download/magic-kingdom-kiwanis-family-unity-day/")
-		]),
+		]),*/
 		// new Dropdown("Desert Oasis", "doasis", [
 
 		// ]),
