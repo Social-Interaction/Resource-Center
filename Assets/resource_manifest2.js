@@ -140,13 +140,7 @@ const resources = {
 			new Resource("Magic Kingdom Merch Order Form", "link", "http://www.cnhcirclek.org/download/magic-kingdom-merch-order-form/", ""),
 			new Resource("Magic Kingdom Kiwanis Family Unity Day", "link", "http://www.cnhcirclek.org/download/magic-kingdom-kiwanis-family-unity-day/", "")
 		]),
-		{
-			Parent: "divisions",
-			Title: "Desert Oasis",
-			Type: "DROPDOWN",
-			Description: "doasis",
-			URL: ""
-		},
+		"//Empty Parent for Desert Oasis (doasis),
 		new Dropdown("Foothill", "foothill", [
 			new Resource("Foothill Cheers", "link", "http://www.cnhcirclek.org/download/foothill-cheers/", ""),
 			new Resource("Foothill Cheer Tutorial", "link", "http://www.cnhcirclek.org/download/foothill-cheer-tutorial/", "")
@@ -154,20 +148,8 @@ const resources = {
 		new Dropdown("Golden Gate", "ggate", [
 			new Resource("Officer Handbook", "link", "http://www.cnhcirclek.org/download/officer-handbook/", "")
 		]),
-		{
-			Parent: "divisions",
-			Title: "Metro",
-			Type: "DROPDOWN",
-			Description: "metro",
-			URL: ""
-		},
-		{
-			Parent: "divisions",
-			Title: "Paradise",
-			Type: "DROPDOWN",
-			Description: "paradise",
-			URL: ""
-		},
+		"//Empty Parent for Metro (metro),
+		"//Empty Parent for Paradise (paradise),
 		new Dropdown("Sunset", "sunset", [
 			new Resource("Sunset Cheers", "link", "http://www.cnhcirclek.org/download/sunset-cheers/", ""),
 			new Resource("Sunset Cheers Videos", "link", "http://www.cnhcirclek.org/download/sunset-division-cheers-videos/", "")
